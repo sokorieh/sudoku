@@ -1,20 +1,23 @@
 /* add your styling and layout CSS here*/
-td {
+#board td {
     width: 50px;
     height: 50px;
     border: 0.5px solid #000;
     text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    
 
 }
 
-td:nth-of-type(3n) {
+#board td:nth-of-type(3n) {
     border-right: 2px solid rgb(0, 0, 0);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-tr:nth-of-type(3n) td {
+#board tr:nth-of-type(3n) td {
     border-bottom: 2px solid rgb(0, 0, 0);
     text-align: center;
 
@@ -27,3 +30,40 @@ table {
 
 }
 
+#digits {
+
+    margin: 20px auto;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-left:auto;margin-right:auto;
+}
+  
+#digits td {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+/* Set the background color to #f2f2f2 for user input */
+.user-input {
+    background-color: #f2f2f2;
+  }
+  
+  /* Set the background color to #f76c5e for errors */
+  .error {
+    background-color: #f76c5e;
+  }
+  
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
